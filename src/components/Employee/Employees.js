@@ -67,39 +67,28 @@ class ShowEmployees extends Component {
 
      headings = [
          
-        {name:"id", width:"20%"},{name:"name", width:"20%"},{name:"occupation", width:"20%"}
+        {name:"id", width:"20%"},{name:"Name", width:"20%"},{name:"Occupation", width:"20%"}
      ]
 
-    // handleInputChange = (event) => {
-    //     // event.preventDefault()
-    //     const searchVal = event.target.value
-    //     const filter = this.state.employees.filter(data => {
-    //         console.log(data)
-    //         const checkValues = Object.values(data)
-    //         .join("").toLowerCase()
-    //         console.log(checkValues)
-
-    //         // return checkValues.indexOf(searchVal.toLowerCase() !== -1)
-
-            
-    //     })
-    //     this.setState({employees:filter})
-    // }
-
-    // handleFormSubmit
+    
 
     render (){
     return (
         <>
+        <h1 className="text-align-center">Bon Appétit Employee Directory</h1>
+
         <Search filterEmployees= {this.filterEmployees} handleFormSubmit = {this.handleFormSubmit}></Search>
-        <table>
+        <br></br>
+        <p>Click on the Category Heading to Sort Field</p>
+        <br></br>
+        <table  className="table table-bordered table-striped">
   <thead>
     <tr>
       {this.headings.map(({name,width})=>{
           return(
           <th key = {name} style = {{width}} onClick = {()=>{
               this.handleSort(name.toLowerCase())
-          }}>{name} <span className = "arrow">click</span></th>
+          }}>{name} <span className = "arrow"></span></th>
           )
       })}
     </tr>
