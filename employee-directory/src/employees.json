@@ -1,42 +1,70 @@
 [
     {
       "id": 1,
+      "name":{
+        "firstName": "Molly",
+      "lastName": "Baz"
+      },
       "firstName": "Molly",
       "lastName": "Baz",
       "occupation": "Accociate Editor"
     },
     {
       "id": 2,
+      "name":{
+        "firstName": "Carla",
+      "lastName": "Lali-Music"
+      },
       "firstName": "Carla",
       "lastName": "Lali-Music",
       "occupation": "Senior Editor"
     },
     {
       "id": 3,
+      "name":{
+        "firstName": "Brad",
+      "lastName": "Leone"
+      },
       "firstName": "Brad",
       "lastName": "Leone",
       "occupation": "Test Kitchen Manager"
     },
     {
       "id": 4,
+      "name":{
+        "firstName": "Sohla",
+      "lastName": "Whaly"
+      },
       "firstName": "Sohla",
       "lastName": "Whaly",
       "occupation": "Creative Director"
     },
     {
       "id": 5,
+      "name":{
+        "firstName": "Andy",
+      "lastName": "Barghani"
+      },
       "firstName": "Andy",
       "lastName": "Barghani",
       "occupation": "Writer"
     },
     {
       "id": 6,
+      "name":{
+        "firstName": "Claire",
+      "lastName": "Saffitz"
+      },
       "firstName": "Claire",
       "lastName": "Saffitz",
       "occupation": "Pastry Chef"
     },
     {
       "id": 7,
+      "name":{
+        "firstName": "Alex",
+      "lastName": "Delaney"
+      },
       "firstName": "Alex",
       "lastName": "Delaney",
       "occupation": "Drinks Editor"
